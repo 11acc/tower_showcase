@@ -1,5 +1,4 @@
-# IE University Tower Campus - Website Showcase
-### tower_showcase
+## IE University Tower Campus - Website Showcase
 
 ![Static Badge](https://img.shields.io/badge/version-1.0-blue)
 
