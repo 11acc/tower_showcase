@@ -1,10 +1,4 @@
 
-
-// explore IE Tower’s facilities
-
-// Use of Objects
-// Use of template strings
-
 class Item {
     constructor(name, category, image, description) {
         this.name = name;
@@ -21,8 +15,8 @@ const itemData = [
     , new Item("Fab Lab", "Tower Facilities", "./img/item/fab.png", "Where creatives and future professionals merge, the Fab Lab is a space to combine traditional methods like woodworking with modern and digital tools to help students projects take shape.")
     , new Item("Robotics Lab", "Tower Facilities", "./img/item/robotics.png", "Students will be guided by experts to develop their own ideas and projects using a host of tools, expanding their hands-on competencies in advanced technologies that include a RoboMaster Robot, three Dobot Magician robotic arms and IE University’s proprietary humanoid robot, TIAGo.")
     , new Item("Design Studio", "Tower Facilities", "./img/item/design.png", "An open-plan space to compare ideas with like-minded colleagues, turn ideas into realities and be creative. It's designed to adapt to various educational needs, whether it be individual study, group projects, or interactive workshops.")
-    , new Item("Design Studio", "Tower Facilities", "./img/item/design.png", "Open spaces within the building in which to develop university life. They generate spaciousness and comfort, an open experience. Our students have one of the most impressive views of Madrid and can enjoy it outdoors since the tower has the highest terrace in Madrid.")
-    , new Item("Design Studio", "Tower Facilities", "./img/item/design.png", "An open-plan space to compare ideas with like-minded colleagues, turn ideas into realities and be creative. It's designed to adapt to various educational needs, whether it be individual study, group projects, or interactive workshops.")
+    , new Item("Open Spaces", "Beyond the Tower", "./img/item/open.png", "Open spaces within the building in which to develop university life. They generate spaciousness and comfort, an open experience. Our students have one of the most impressive views of Madrid and can enjoy it outdoors since the tower has the highest terrace in Madrid.")
+    , new Item("Caleido", "Beyond the Tower", "./img/item/caleido.png", "Caleido starts out from three premises: to propose a new centrality north of Paseo de la Castellana, to connect the Cuatro Torres Business Area with its environment, and to give the city a large green space – over 33,000 m² – around the complex. The proposal consists of two main pieces: a horizontal base and a tower. The low-rise volume will accommodate the public programs, from the sports clinic to commercial and leisure areas. The university campus and offices will occupy the vertical prism. The foundation of the tower, a large post-tensioned slab, was completed over the existing footing of the unfinished Convention Center.")
 ];
 
 const overlay = document.querySelector(".overlay");
@@ -75,11 +69,6 @@ items.forEach((item, index) => {
         overlayAction(true);
     });
 });
-
-// i_close.addEventListener("click", () => {
-//     // close overlay
-//     overlayAction(false);
-// });
 
 // close if click outside of overlay
 document.addEventListener("click", (click) => {
